@@ -6,9 +6,9 @@ class App extends React.Component {
   state={
     days: {
       Mon: [78, 67],
-      Tue: [76, 69],
+      Tue: [73, 69],
       Wed: [79, 70],
-      Thu: [78, 68],
+      Thu: [76, 67],
       Fri: [80, 70]
     }
   }

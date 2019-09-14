@@ -1,15 +1,17 @@
 import React from 'react';
-import classes from './WeatherCard.css';
+import './WeatherCard.css';
 
 class WeatherCard extends React.Component {
   render() {
     return (
-      <div className={classes.WeatherCard}>
-        <h1>Day of Week</h1>
-        <p>image here</p>
-        <p>Degrees(low and high)</p>
+      <div className={"WeatherCard"}>
+        <h2><b>Day of week</b></h2>
+        <p>image of forecast here</p>
+        <div class="container">
+          <p>forecast and degrees</p>
+        </div>
       </div>
-    )
+    );
   }
 }
 
