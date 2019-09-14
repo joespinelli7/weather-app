@@ -10,6 +10,13 @@ class App extends React.Component {
       Wed: [79, 70],
       Thu: [76, 67],
       Fri: [80, 70]
+    },
+    forecast: {
+      Mon: "Sunny",
+      Tue: "Partly Cloudy",
+      Wed: "Sunny",
+      Thu: "Rain",
+      Fri: "Sunny"
     }
   }
 
