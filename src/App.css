@@ -1,10 +1,23 @@
 .App {
   width: 70%;
   background: #42ddf5;
-  margin: 10px auto;
+  margin: auto;
   position: relative;
-  text-align:center;
-  margin-top: 10%;
+  text-align: center;
+  margin-top: 8%;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 3px solid black;
+  width: 30%;
+  margin: auto;
+  border-radius: 10px;
+  border-color: #f55142;
+  background-color: white
 }
 
 /* .App-logo {

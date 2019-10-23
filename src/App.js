@@ -22,6 +22,7 @@ class App extends React.Component {
     console.log(this.state.days.Mon.weather)
     return (
       <div className="App">
+        <h1>Weather Zone</h1>
         {daysArray.map(day => {
           return <WeatherCard
             key={day}
