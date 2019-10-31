@@ -19,7 +19,8 @@ class App extends React.Component {
     for (let day in this.state.days) {
       daysArray.push(day);
     }
-    console.log(this.state.days.Mon.weather)
+
+    // find better storage method for weather.
     return (
       <div className="App">
         <h1>Weather Zone</h1>
