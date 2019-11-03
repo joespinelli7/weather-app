@@ -15,7 +15,7 @@ class App extends React.Component {
 
   render () {
     const daysArray = [];
-    const weatherArray = []
+    const weatherArray = [];
     for (let day in this.state.days) {
       daysArray.push(day);
     }
