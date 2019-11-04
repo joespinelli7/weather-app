@@ -3,6 +3,7 @@ import './App.css';
 import WeatherCard from './components/WeatherCard';
 
 class App extends React.Component {
+  // add id for each day?
   state={
     days: {
       Mon: {weather: [78, 67], forecast: "Sunny"},
